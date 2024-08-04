@@ -7,6 +7,7 @@ fn main() {
             .define("OpenGL_GL_PREFERENCE", "GLVND")
             .define("DYNAMIC_LOADER", "OFF")
             .define("CMAKE_INSTALL_LIBDIR", "lib")
+            .define("_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR", "0")
             .profile("Release")
             .build();
 
