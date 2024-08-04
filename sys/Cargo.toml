@@ -24,7 +24,7 @@ libc = "0.2.50"
 mint = { version = "0.5.3", optional = true }
 
 [build-dependencies]
-cmake = { version = "0.1.35", optional = true }
+cmake = { version = "0.1.50", optional = true }
 
 [package.metadata.docs.rs]
 features = ["linked", "mint"]
